@@ -24,7 +24,7 @@ import model.Question;
  * @author Vu Quang Nam
  */
 public class Xuatnhapcategoryquestion {
-    public static List<Category> readCategoryList() {
+    public List<Category> readCategoryList() {
         Category category;
         List<Category> _cList = new ArrayList<Category>();
         try {
@@ -42,7 +42,7 @@ public class Xuatnhapcategoryquestion {
 
         return _cList;
     }
-    public static void writeCategoryList(List<Category> _cList) {
+    public void writeCategoryList(List<Category> _cList) {
         try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(System.getProperty("user.dir") + "\\src\\Data\\categorySource.txt"), StandardCharsets.UTF_8)) {
             for (int i = 0; i < _cList.size(); i++) {
                 writer.write('\n');
@@ -55,7 +55,7 @@ public class Xuatnhapcategoryquestion {
             e.printStackTrace();
         }
     }    
-    public static List<Category> addCategory(List<Category> _cList) {
+    public List<Category> addCategory(List<Category> _cList) {
         Category category = new Category();
         Scanner sc = new Scanner(System.in, "UTF-8");
 
@@ -70,7 +70,7 @@ public class Xuatnhapcategoryquestion {
         return _cList;
     }
 
-    public static List<Question> readQuestionList(Integer _categoryId) {
+    public List<Question> readQuestionList(Integer _categoryId) {
         Question question;
         List<Question> _qList = new ArrayList<Question>();
         try {
@@ -99,7 +99,7 @@ public class Xuatnhapcategoryquestion {
                     //Read level
                     question.setLevel(Integer.parseInt(str));
 
-                    if (question.getLevel() == _categoryId) {
+                    if (question.getCategory() == _categoryId) {
                         _qList.add(question);
                     }
                 }
@@ -115,7 +115,7 @@ public class Xuatnhapcategoryquestion {
 
         return _qList;
     }
-    public static void writeQuestion(Question _question) {
+    public void writeQuestion(Question _question) {
         try {
             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(System.getProperty("user.dir") + "\\src\\Data\\questionSource.txt", true), "UTF-8"));
             writer.write("\n");
@@ -136,7 +136,7 @@ public class Xuatnhapcategoryquestion {
             e.printStackTrace();
         }
     }
-    public static void fetchQuestion(int _categoryId, String directory) {
+    public void fetchQuestion(int _categoryId, String directory) {
         try {
             int row = 0;
             Scanner sc = new Scanner(new File(directory), "UTF-8");
@@ -178,7 +178,6 @@ public class Xuatnhapcategoryquestion {
                     _question.setAnswer(_answer);
                     
                     writeQuestion(_question);
-                    
                 }
             }
 

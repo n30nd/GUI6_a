@@ -9,13 +9,15 @@ import java.awt.FlowLayout;
 import java.awt.Label;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import javax.swing.Action;
 import javax.swing.BoxLayout;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import model.Category;
 import model.Question;
@@ -79,9 +81,9 @@ public class MyPanel extends javax.swing.JPanel {
 
         jLabel2.setText("Select a Category: ");
 
-        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox1ActionPerformed(evt);
+        jComboBox1.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent ae) {
+                showQuestion(jComboBox1.getSelectedIndex());
             }
         });
 
@@ -145,10 +147,10 @@ public class MyPanel extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
 
-List<Category> categories;
+    List<Category> categories;
     
-public static List<Category> readCategoriesFromFile(String filePath) {
-        List<Category> categories = new ArrayList<>();
+    public List<Category> readCategoriesFromFile(String filePath) {
+        categories = new ArrayList<>();
 
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
             String line;
@@ -180,51 +182,20 @@ public static List<Category> readCategoriesFromFile(String filePath) {
                     category = null;
                 }
             }
-        } catch (IOException e) {
-        }
+        } catch (IOException e) {}
 
         return categories;
     }
     private void loadCategories(){
-    // List<Category> categories = readCategoriesFromFile("src\\Data\\categorySource.txt");
-    Xuatnhapcategoryquestion xn = new Xuatnhapcategoryquestion();
+        // List<Category> categories = readCategoriesFromFile("src\\Data\\categorySource.txt");
+        Xuatnhapcategoryquestion xn = new Xuatnhapcategoryquestion();
        
-         categories = xn.readCategoryList();
-     for(Category category : categories){
-         xn.fetchQuestion(category.getId(), System.getProperty("user.dir") + "\\src\\Data\\newQuestion.txt");
-         category.setNumOfQuestions(Xuatnhapcategoryquestion.readQuestionList(category.getId()).size());// tính số câu hỏi trong mỗi category
-         jComboBox1.addItem(category.toString1());     
-     }
-     
-     jComboBox1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                panelQuestions.removeAll();
-                
-                int idex = jComboBox1.getSelectedIndex();
-                Category categoryChoose = categories.get(idex);
-                
-                Xuatnhapcategoryquestion xn = new Xuatnhapcategoryquestion();
-                
-                List<Question> questionChooses = xn.readQuestionList(categoryChoose.getId());
-                panelQuestions.setLayout(new BoxLayout(panelQuestions,BoxLayout.Y_AXIS));
-
-                for(Question qs : questionChooses){
-                    System.out.println(".actionPerformed()"+qs.getName());
-                   JPanel jPanel = new JPanel();
-                   jPanel.setLayout(new FlowLayout());
-                   jPanel.setSize(200, 200);
-                   
-                   Label lb = new Label();
-                   lb.setText(qs.getName());
-                   jPanel.add(lb);
-                   
-                   panelQuestions.add(jPanel);
-                }
-                System.out.println(".actionPerformed()"+ categoryChoose.getName());
-                // Thực hiện hành động sau khi người dùng chọn phần tử
-            }
-        });
+        categories = xn.readCategoryList();
+        for(int i = 0; i < categories.size(); i++){
+            // xn.fetchQuestion(category.getId(), System.getProperty("user.dir") + "\\src\\Data\\newQuestion.txt");
+            categories.get(i).setNumOfQuestions(xn.readQuestionList(categories.get(i).getId()).size());// tính số câu hỏi trong mỗi category
+            jComboBox1.addItem(categories.get(i).toString1());
+        }
     }
 
         
@@ -233,11 +204,22 @@ public static List<Category> readCategoriesFromFile(String filePath) {
 //    
 //    
 //}
-    
-    
-    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox1ActionPerformed
+
+    private void showQuestion(int i) {
+        panelQuestions.removeAll();
+        
+        Xuatnhapcategoryquestion xn = new Xuatnhapcategoryquestion();
+        
+        List<Question> questionChooses = xn.readQuestionList(categories.get(i).getId());
+        panelQuestions.setLayout(new BoxLayout(panelQuestions, BoxLayout.Y_AXIS));
+
+        for (Question qs : questionChooses) {
+            panelQuestions.add(new JLabel(qs.getName()));
+        }
+        panelQuestions.validate();
+        panelQuestions.repaint();
+        // Thực hiện hành động sau khi người dùng chọn phần tử
+    }
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
