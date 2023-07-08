@@ -1,0 +1,23 @@
+
+Một cộng một theo em bằng mấy?
+A. 2
+B. 3
+ANSWER: A
+
+Easy: Trong tiếng Việt, chủ nhật còn có tên gọi là gì?
+A. Chủ nhật
+B. Sunday
+C. Ngày tất niên
+ANSWER: A
+
+Medium: Anh Quân có pro, đỉnh của chóp không?
+A. Có
+B. Tất nhiên
+C. Chính xác
+ANSWER: A, B, C
+
+Hard: Quân chơi tướng gì giỏi nhất?
+A. Lauriel
+B. Florentino
+C. Tất cả các tướng
+ANSWER: C

@@ -1,0 +1,552 @@
+
+0
+Một cộng một theo em bằng mấy?
+
+1.0
+A. 2
+B. 3
+1.0
+0.0
+0
+
+0
+ Trong tiếng Việt, chủ nhật còn có tên gọi là gì?
+
+1.0
+A. Chủ nhật
+B. Sunday
+C. Ngày tất niên
+1.0
+0.0
+0.0
+1
+
+0
+ Anh Quân có pro, đỉnh của chóp không?
+
+1.0
+A. Có
+B. Tất nhiên
+C. Chính xác
+0.33333334
+0.33333334
+0.33333334
+2
+
+0
+ Quân chơi tướng gì giỏi nhất?
+
+1.0
+A. Lauriel
+B. Florentino
+C. Tất cả các tướng
+0.0
+0.0
+1.0
+3
+
+1
+Một cộng một theo em bằng mấy?
+
+1.0
+A. 2
+B. 3
+1.0
+0.0
+0
+
+1
+ Trong tiếng Việt, chủ nhật còn có tên gọi là gì?
+
+1.0
+A. Chủ nhật
+B. Sunday
+C. Ngày tất niên
+1.0
+0.0
+0.0
+1
+
+1
+ Anh Quân có pro, đỉnh của chóp không?
+
+1.0
+A. Có
+B. Tất nhiên
+C. Chính xác
+0.33333334
+0.33333334
+0.33333334
+2
+
+1
+ Quân chơi tướng gì giỏi nhất?
+
+1.0
+A. Lauriel
+B. Florentino
+C. Tất cả các tướng
+0.0
+0.0
+1.0
+3
+
+4
+Một cộng một theo em bằng mấy?
+
+1.0
+A. 2
+B. 3
+1.0
+0.0
+0
+
+4
+ Trong tiếng Việt, chủ nhật còn có tên gọi là gì?
+
+1.0
+A. Chủ nhật
+B. Sunday
+C. Ngày tất niên
+1.0
+0.0
+0.0
+1
+
+4
+ Anh Quân có pro, đỉnh của chóp không?
+
+1.0
+A. Có
+B. Tất nhiên
+C. Chính xác
+0.33333334
+0.33333334
+0.33333334
+2
+
+4
+ Quân chơi tướng gì giỏi nhất?
+
+1.0
+A. Lauriel
+B. Florentino
+C. Tất cả các tướng
+0.0
+0.0
+1.0
+3
+
+0
+Một cộng một theo em bằng mấy?
+
+1.0
+A. 2
+B. 3
+1.0
+0.0
+0
+
+0
+ Trong tiếng Việt, chủ nhật còn có tên gọi là gì?
+
+1.0
+A. Chủ nhật
+B. Sunday
+C. Ngày tất niên
+1.0
+0.0
+0.0
+1
+
+0
+ Anh Quân có pro, đỉnh của chóp không?
+
+1.0
+A. Có
+B. Tất nhiên
+C. Chính xác
+0.33333334
+0.33333334
+0.33333334
+2
+
+0
+ Quân chơi tướng gì giỏi nhất?
+
+1.0
+A. Lauriel
+B. Florentino
+C. Tất cả các tướng
+0.0
+0.0
+1.0
+3
+
+1
+Một cộng một theo em bằng mấy?
+
+1.0
+A. 2
+B. 3
+1.0
+0.0
+0
+
+1
+ Trong tiếng Việt, chủ nhật còn có tên gọi là gì?
+
+1.0
+A. Chủ nhật
+B. Sunday
+C. Ngày tất niên
+1.0
+0.0
+0.0
+1
+
+1
+ Anh Quân có pro, đỉnh của chóp không?
+
+1.0
+A. Có
+B. Tất nhiên
+C. Chính xác
+0.33333334
+0.33333334
+0.33333334
+2
+
+1
+ Quân chơi tướng gì giỏi nhất?
+
+1.0
+A. Lauriel
+B. Florentino
+C. Tất cả các tướng
+0.0
+0.0
+1.0
+3
+
+4
+Một cộng một theo em bằng mấy?
+
+1.0
+A. 2
+B. 3
+1.0
+0.0
+0
+
+4
+ Trong tiếng Việt, chủ nhật còn có tên gọi là gì?
+
+1.0
+A. Chủ nhật
+B. Sunday
+C. Ngày tất niên
+1.0
+0.0
+0.0
+1
+
+4
+ Anh Quân có pro, đỉnh của chóp không?
+
+1.0
+A. Có
+B. Tất nhiên
+C. Chính xác
+0.33333334
+0.33333334
+0.33333334
+2
+
+4
+ Quân chơi tướng gì giỏi nhất?
+
+1.0
+A. Lauriel
+B. Florentino
+C. Tất cả các tướng
+0.0
+0.0
+1.0
+3
+
+0
+Một cộng một theo em bằng mấy?
+
+1.0
+A. 2
+B. 3
+1.0
+0.0
+0
+
+0
+ Trong tiếng Việt, chủ nhật còn có tên gọi là gì?
+
+1.0
+A. Chủ nhật
+B. Sunday
+C. Ngày tất niên
+1.0
+0.0
+0.0
+1
+
+0
+ Anh Quân có pro, đỉnh của chóp không?
+
+1.0
+A. Có
+B. Tất nhiên
+C. Chính xác
+0.33333334
+0.33333334
+0.33333334
+2
+
+0
+ Quân chơi tướng gì giỏi nhất?
+
+1.0
+A. Lauriel
+B. Florentino
+C. Tất cả các tướng
+0.0
+0.0
+1.0
+3
+
+1
+Một cộng một theo em bằng mấy?
+
+1.0
+A. 2
+B. 3
+1.0
+0.0
+0
+
+1
+ Trong tiếng Việt, chủ nhật còn có tên gọi là gì?
+
+1.0
+A. Chủ nhật
+B. Sunday
+C. Ngày tất niên
+1.0
+0.0
+0.0
+1
+
+1
+ Anh Quân có pro, đỉnh của chóp không?
+
+1.0
+A. Có
+B. Tất nhiên
+C. Chính xác
+0.33333334
+0.33333334
+0.33333334
+2
+
+1
+ Quân chơi tướng gì giỏi nhất?
+
+1.0
+A. Lauriel
+B. Florentino
+C. Tất cả các tướng
+0.0
+0.0
+1.0
+3
+
+4
+Một cộng một theo em bằng mấy?
+
+1.0
+A. 2
+B. 3
+1.0
+0.0
+0
+
+4
+ Trong tiếng Việt, chủ nhật còn có tên gọi là gì?
+
+1.0
+A. Chủ nhật
+B. Sunday
+C. Ngày tất niên
+1.0
+0.0
+0.0
+1
+
+4
+ Anh Quân có pro, đỉnh của chóp không?
+
+1.0
+A. Có
+B. Tất nhiên
+C. Chính xác
+0.33333334
+0.33333334
+0.33333334
+2
+
+4
+ Quân chơi tướng gì giỏi nhất?
+
+1.0
+A. Lauriel
+B. Florentino
+C. Tất cả các tướng
+0.0
+0.0
+1.0
+3
+
+0
+Một cộng một theo em bằng mấy?
+
+1.0
+A. 2
+B. 3
+1.0
+0.0
+0
+
+0
+ Trong tiếng Việt, chủ nhật còn có tên gọi là gì?
+
+1.0
+A. Chủ nhật
+B. Sunday
+C. Ngày tất niên
+1.0
+0.0
+0.0
+1
+
+0
+ Anh Quân có pro, đỉnh của chóp không?
+
+1.0
+A. Có
+B. Tất nhiên
+C. Chính xác
+0.33333334
+0.33333334
+0.33333334
+2
+
+0
+ Quân chơi tướng gì giỏi nhất?
+
+1.0
+A. Lauriel
+B. Florentino
+C. Tất cả các tướng
+0.0
+0.0
+1.0
+3
+
+1
+Một cộng một theo em bằng mấy?
+
+1.0
+A. 2
+B. 3
+1.0
+0.0
+0
+
+1
+ Trong tiếng Việt, chủ nhật còn có tên gọi là gì?
+
+1.0
+A. Chủ nhật
+B. Sunday
+C. Ngày tất niên
+1.0
+0.0
+0.0
+1
+
+1
+ Anh Quân có pro, đỉnh của chóp không?
+
+1.0
+A. Có
+B. Tất nhiên
+C. Chính xác
+0.33333334
+0.33333334
+0.33333334
+2
+
+1
+ Quân chơi tướng gì giỏi nhất?
+
+1.0
+A. Lauriel
+B. Florentino
+C. Tất cả các tướng
+0.0
+0.0
+1.0
+3
+
+4
+Một cộng một theo em bằng mấy?
+
+1.0
+A. 2
+B. 3
+1.0
+0.0
+0
+
+4
+ Trong tiếng Việt, chủ nhật còn có tên gọi là gì?
+
+1.0
+A. Chủ nhật
+B. Sunday
+C. Ngày tất niên
+1.0
+0.0
+0.0
+1
+
+4
+ Anh Quân có pro, đỉnh của chóp không?
+
+1.0
+A. Có
+B. Tất nhiên
+C. Chính xác
+0.33333334
+0.33333334
+0.33333334
+2
+
+4
+ Quân chơi tướng gì giỏi nhất?
+
+1.0
+A. Lauriel
+B. Florentino
+C. Tất cả các tướng
+0.0
+0.0
+1.0
+3
